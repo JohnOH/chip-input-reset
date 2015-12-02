@@ -1,0 +1,14 @@
+Source: chip-input-reset
+Section: unknown
+Priority: optional
+Maintainer: Ben Young <software@nextthing.co>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: nextthing.co
+Github: https://github.com/NextThingCo/chip-input-reset
+
+Package: chip-input-reset
+Architecture: all
+Depends: ${misc:Depends}
+Description: A systemd service for USB inputs
+ Reloads evdev inputs after lightdm starts.
