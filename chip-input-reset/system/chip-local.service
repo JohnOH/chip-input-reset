@@ -1,5 +1,4 @@
 [Unit]
-Description=/etc/rc.local Compatibility
 ConditionFileIsExecutable=/usr/sbin/chip.local
 Requires=lightdm.service
 After=lightdm.service
