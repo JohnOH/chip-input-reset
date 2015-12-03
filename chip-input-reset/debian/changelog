@@ -1,3 +1,10 @@
+chip-input-reset (0.3) unstable; urgency=low
+
+  * Added exit code and removed time logging
+
+ -- Ben Young <software@nextthing.co>  Thu, 03 Dec 2015 10:56:24 -0800
+
+
 chip-input-reset (0.2) unstable; urgency=low
 
   * Removed rc.local compatibility to address initial boot time issue.
